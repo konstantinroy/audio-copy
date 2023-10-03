@@ -1,0 +1,178 @@
+.fullScreenAudioPopup {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: 10;
+  animation: fullScreenAudioPopupAnimation 0.2s ease;
+}
+.hideButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.hideBtn {
+  width: 10%;
+  height: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(114, 114, 114);
+  margin-top: 10px;
+}
+.audioImageBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.audioImgBlock {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.audioImg {
+  font-size: 90px;
+  color: rgb(213 213 213);
+}
+.audioProgressLineBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.audioRange {
+  width: 80%;
+  height: 4px;
+  border-radius: 10px;
+  outline: none;
+}
+.timers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: rgb(114, 114, 114);
+  margin-bottom: 50px;
+}
+.timersBlock {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottomBlock {
+  padding: 0 8%;
+}
+.audioInfo {
+  margin-bottom: 50px;
+}
+.audioName {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.authorName {
+  font-size: 18px;
+  font-weight: 100;
+  color: rgb(0, 89, 255);
+}
+.controlsAudioButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.prevNextBtn,
+.playPauseBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prevNextBtn {
+  font-size: 40px;
+}
+.playPauseBtn {
+  font-size: 46px;
+  margin: 0 40px;
+}
+.volumeBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.volumeController {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.volumeBackIcon,
+.volumeIcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(114, 114, 114);
+}
+.inputRange {
+  width: 80%;
+  height: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+
+// .volumeLine {
+//   width: 100%;
+//   height: 4px;
+//   border: none;
+//   border-radius: 10px;
+//   background-color: #000000a6;
+// }
+// .volumeLineCircle {
+//   height: 30px;
+//   width: 30px;
+//   border-radius: 50%;
+//   position: absolute;
+//   right: -2px;
+//   top: -12px;
+//   font-size: 28px;
+//   background-color: rgb(255 255 255);
+//   box-shadow: rgb(0 0 0 / 35%) 0px 0px 14px;
+// }
+
+.closePlayerButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closePlayerButton button {
+  font-size: 14px;
+  border: 1px solid rgb(114, 114, 114);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+@keyframes fullScreenAudioPopupAnimation {
+  from {
+    bottom: -100%;
+  }
+  to {
+    bottom: 0;
+  }
+}

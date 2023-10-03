@@ -1,0 +1,46 @@
+.wave{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    // background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.6);
+    // background-color: rgb(96 96 96, 0.5);
+    border-radius: 10px;
+}
+.items{
+    height: 25px;
+    width: 2px;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin: 1px;
+    animation: wave 1s ease-in-out infinite;
+}
+@keyframes wave{
+    0%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(0);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+.items:nth-child(1){
+    animation-delay: 0.2s;
+}
+.items:nth-child(2){
+    animation-delay: 0.4s;
+}
+.items:nth-child(3){
+    animation-delay: 0.6s;
+}
+.items:nth-child(4){
+    animation-delay: 0.4s;
+}
+.items:nth-child(5){
+    animation-delay: 0.2s;
+}
