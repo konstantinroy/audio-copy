@@ -9,7 +9,6 @@ const AudiosArray = [
       audioName: "Заключительный разговор Рая и Дудки",
       audioLink: Audio1,
       // duration: '',
-      // active: false,
     },
     {
       id: 2,
@@ -17,7 +16,6 @@ const AudiosArray = [
       audioName: "Райская месть",
       audioLink: Audio2,
       // duration: '',
-      // active: false,
     },
     {
       id: 3,
@@ -25,7 +23,6 @@ const AudiosArray = [
       audioName: "Расплата",
       audioLink: Audio3,
       // duration: '',
-      // active: false,
     },
   ];
 
