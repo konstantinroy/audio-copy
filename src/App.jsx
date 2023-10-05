@@ -51,7 +51,7 @@ function App() {
   //// Видимость нижнего popup-аудиоплеера
   const [bottomAudioPopup, setBottomAudioPopup] = useState(false);
 
-  //// Функция перемотки аудио и её прогресса
+  //// Функция перемотки аудио и его прогресса
   const seekBarProgress = (e) => {
     const { value } = e.target;
     const duration = currentAudio.duration;
